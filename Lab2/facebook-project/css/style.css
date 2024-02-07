@@ -273,6 +273,11 @@ body {
    margin-left: -20px;
 }
 
+.footer-list a {
+   text-decoration: none;
+   color: #737373;
+}
+
 li {
    padding-left: 20px;
    padding-right: 0;
