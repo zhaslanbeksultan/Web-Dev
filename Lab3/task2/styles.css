@@ -1,0 +1,105 @@
+body {
+   margin: 0;
+   box-sizing: content-box;
+}
+
+.global {
+   margin: 0;
+   padding: 0;
+   display: block;
+   box-sizing: border-box;
+}
+
+.header {
+   width: 100%;
+   height: 50px;
+   text-align: center;
+   background-color: #383539;
+}
+
+.header div {
+   font-size: 40px;
+   color: rgb(253, 253, 253);
+   font-weight: bold;
+   font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.main {
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   background-color: rgb(156, 161, 123);
+   display: block;
+   text-align: center;
+   padding: 20px;
+   box-sizing: border-box;
+}
+
+.functions {
+   margin: 50px;
+   max-height: 100%;
+   border-radius: 50px;
+   background-color: rgb(147, 137, 74);
+   padding: 40px;
+   align-items: center;
+}
+
+#input {
+   height: 30px;
+   width: 200px;
+   text-align: center;
+   border-radius: 10px;
+   background-color: #383539;
+   border: 0;
+   padding: 0;
+   color: aqua;
+}
+
+button {
+   height: 30px;
+   text-align: center;
+   border-radius: 10px;
+}
+
+#add {
+   background-color: rgb(125, 119, 79);
+   font-weight: bold;
+   color: rgb(253, 253, 253);
+}
+
+#add:hover {
+   background-color: rgb(213, 213, 21);
+}
+
+.remove-button {
+   font-weight: bold;
+   color: darkgoldenrod;
+   background-color: yellow;
+}
+
+.list-to-do {
+   display: flex;
+   flex-direction: column;
+   font-size: 40px;
+   position: relative;
+   user-select: none;
+   cursor: pointer;
+   list-style-type: none;
+   text-align: left;
+
+}
+
+.remove-button:hover {
+   background-color: rgb(171, 110, 70);
+   color: aliceblue;
+}
+
+.list-to-do li {
+   border-bottom: 2px solid #aca9ac;
+   padding-bottom: 5px;
+   margin-bottom: 5px;
+}
+
+.list-to-do li:last-child {
+   border-bottom: none;
+}
