@@ -1,0 +1,5 @@
+<app-top-bar></app-top-bar>
+<!--<app-category></app-category>-->
+<div class="category" *ngFor="let category of categories">
+<app-product-list [products]="category.products" *ngIf="category.isOpen"></app-product-list>
+</div>
