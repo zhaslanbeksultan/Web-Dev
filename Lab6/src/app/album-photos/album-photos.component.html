@@ -1,0 +1,14 @@
+<button class="back-btn" [routerLink]="['/albums', albumId]">Back</button>
+<div *ngIf="loaded; else loading">
+  <div *ngFor="let photo of photos" style="display: inline-block">
+    <div style="margin: 75px">
+      <p>{{photo.id}}</p>
+      <img src="{{photo.thumbnailUrl}}" alt="">
+    </div>
+  </div>
+</div>
+
+
+<ng-template #loading>
+  <p>Albums are loading...</p>
+</ng-template>

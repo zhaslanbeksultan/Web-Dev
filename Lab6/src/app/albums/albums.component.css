@@ -1,0 +1,40 @@
+.add-album{
+  width: 30%;
+  padding-left: 5%;
+  padding-top: 30px;
+  background-color: #05386B;
+  margin-left: 32%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 200px;
+  border: none;
+}
+
+.field{
+  display: block;
+  width: 85%;
+  margin: 15px 0;
+  height: 35px;
+  font-size: 15px;
+  padding-left: 10px;
+}
+.btn{
+  height: 30px;
+  width: 150px;
+  margin-left: 110px;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.album-link{
+  margin: 20px;
+  text-decoration: none;
+  color: #05386B;
+  font-weight: 800;
+}
+.remove-btn{
+  height: 30px;
+  width: 70px;
+  margin: 4px;
+  font-size: 15px;
+}

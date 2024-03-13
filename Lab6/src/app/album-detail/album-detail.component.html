@@ -1,0 +1,16 @@
+<div *ngIf="loaded">
+  <button class="btn back" [routerLink]="['/albums']">Back</button>
+  <div class="detail-container">
+    <div class="detail">
+      <h3>#{{album.id}} Album detail</h3>
+      <h1>Title: {{album.title}}</h1>
+      <input class="input" type="text" placeholder="New Title" [(ngModel)]="newTitle">
+      <button class="btn" (click)="updateAlbum()">Save</button>
+      <p>User ID: {{album.userId}}</p>
+      <button class="btn photo" [routerLink]="['/albums', albumId, 'photos']">Photos</button>
+    </div>
+  </div>
+</div>
+
+<p *ngIf="!loaded">Album detail is loading...</p>
+
