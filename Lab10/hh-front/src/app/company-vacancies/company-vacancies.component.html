@@ -1,0 +1,10 @@
+<h1>Vacancies:</h1>
+
+<div *ngFor="let vacancy of vacancies">
+  <p>Vacancy name: {{ vacancy.name }}</p>
+  <p>Salary: {{ vacancy.salary }}</p>
+  <p>Description: {{ vacancy.description }}</p>
+  <!-- Horizontal line with custom styles -->
+  <hr style="border: 2px solid black; margin: 20px 0;">
+
+</div>
